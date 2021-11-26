@@ -10,9 +10,9 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/send-mensage">Mande uma Mensagem</Nav.Link>
-              <Nav.Link href="#home">Painel de Mensagens</Nav.Link>
+              <Nav.Link href="/mensages">Painel de Mensagens</Nav.Link>
             </Nav>
           </Navbar.Collapse>
       </Container>
