@@ -1,6 +1,7 @@
 import {Form, Container, Button, Modal} from 'react-bootstrap'
 import axios from 'axios'
 import { useState } from 'react'
+import Footer from './Footer'
 
 const AddForm = () => {
   const [textArea, setTextArea] = useState('')
@@ -16,7 +17,7 @@ const AddForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post('127.0.0.1:8000/api/create', postObject)
+    axios.post('http://localhost:8000/api/create/', postObject)
     alert('Post added')
   }
 
@@ -68,6 +69,7 @@ const AddForm = () => {
       </Button>
       </Container>
     </Form>
+    <Footer />
 
     
     </>

@@ -1,0 +1,16 @@
+
+$dark:#ff007f;
+$primary:#b927d6;
+$secondary:#ff6fff;
+
+// this is used to map colors. change accordingly.
+$theme-colors: (
+primary: $primary,
+secondary: $secondary,
+dark: $dark,
+
+);
+
+
+
+@import '~bootstrap/scss/bootstrap.scss';
