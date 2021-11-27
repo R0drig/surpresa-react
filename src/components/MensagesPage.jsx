@@ -29,7 +29,14 @@ const MensagesPage = () => {
       </CardGroup>
     </Container>
     <Navbar position="fixed" bg="dark" className="justify-content-center">
-      <p style={{color:"#f0f8ff"}}>©Copyright by <a className="afooter" href="https://github.com/R0drig">Rodrigo dos Reis</a></p>
+      <p style={{color:"#f0f8ff"}}>©Copyright by  
+      <a className="afooter" href="https://github.com/R0drig"> Rodrigo dos Reis </a>
+         and <a 
+        href="https://www.instagram.com/oi_gralha/"
+        className='afooter'>
+           Gabriel Balestra
+        </a>
+        </p>
     </Navbar>
     </>
   )

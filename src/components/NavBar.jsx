@@ -1,4 +1,5 @@
 import {Nav, Navbar, Container} from 'react-bootstrap';
+import image from '../assets/brand.png'
 
 
 const NavBar = () => {
@@ -6,7 +7,15 @@ const NavBar = () => {
     <>
     <Navbar collapseOnSelect  expand="sm" bg="dark" variant="dark" >
       <Container>
-        <Navbar.Brand href="#home">Rabudinha de Limeira</Navbar.Brand>
+      <img
+          alt=""
+          src={image}
+          width="50"
+          height="50"
+          className="d-inline-block align-top"
+
+        />{' '}
+        <Navbar.Brand className="m-3" href="#home">Rabudinha de Limeira</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
